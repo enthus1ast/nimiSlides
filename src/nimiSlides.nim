@@ -113,6 +113,8 @@ const main = """
     {{#useScrollView}}
     view: 'scroll',
     {{/useScrollView}}
+    hash: true,
+    respondToHashChanges: true,
   });
 {{> customJS}}
 </script>
